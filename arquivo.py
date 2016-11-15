@@ -1,5 +1,7 @@
-def potencia(numero, indice):
+def potencia(numero, indice, i):
 	
+	print "contador: %i" %i
+
 	if indice == 0:
 		return 1
 	
@@ -9,4 +11,4 @@ def potencia(numero, indice):
 
 	return numero * potencia(numero, indice-1)
 
-print potencia(2, 10)
+print potencia(2, 10, 1)
